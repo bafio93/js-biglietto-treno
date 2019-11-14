@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeon Sung', cursive;
+}
+
+#container>span {
+    color: white;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    animation-name: nice;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nice {
+    0% {background-color: darkred;}
+    25% {background-color: fuchsia;}
+    50% {background-color: firebrick;}
+    75% {background-color: fuchsia;}
+    100% {background-color: darkred;}
+}
